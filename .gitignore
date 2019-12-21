@@ -7,14 +7,11 @@
 *.obj
 *.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
 # Libraries
 *.lib
@@ -22,11 +19,30 @@
 *.la
 *.lo
 
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
 # Executables
 *.exe
