@@ -66,7 +66,7 @@ int *func(char *str){
 
 int main(){
     int *x;
-    x = func("dog cat ronenen");
+    x = func("Eyal Ben-Gad");
     printf("Value of x= %d", *x);
     return 0;
 }
